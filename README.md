@@ -72,6 +72,7 @@ scss/
 
 ### Numbers
 * Don't add leading zeros -- `.5em` instead of `0.5em`.
+* Prefer `border: 0`over `border: none`.
 * When dealing with lengths, a 0 value should never have a unit -- `margin: 0;` instead of `margin: 0px;`.
 * Always lowercase hex values -- `color: #bada55` instead of `#BADA55`.
 * Top-level numeric calculations should always be wrapped in parenthese -- `width: (100% / 3);` instead of `width: 100% / 3;`.
