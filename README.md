@@ -232,6 +232,9 @@ Never stop reading !
 * [BEM 101](https://css-tricks.com/bem-101/)
 * [Battling BEM: 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
 
+### Great ideas
+* [Namespacing CSS](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+
 ### Other styleguides
 * [Airbnb](https://github.com/airbnb/css)
 * [Hugo Giraudel](https://www.sitepoint.com/css-sass-styleguide/)
