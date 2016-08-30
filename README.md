@@ -234,6 +234,7 @@ Never stop reading !
 
 ### Great ideas
 * [Namespacing CSS](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+* [Developing extensible HTML & CSS components](https://css-tricks.com/developing-extensible-html-css-components/)
 
 ### Other styleguides
 * [Airbnb](https://github.com/airbnb/css)
