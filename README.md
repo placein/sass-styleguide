@@ -102,6 +102,24 @@ $length: $value * 1px;
 * Scope classes to the closest parent only when necessary (e.g., when not using prefixed classes).
 * Keep your selectors as flat as possible. With SASS particularly, it is easy to get carried away. Keep your nesting to 3 levels deep max. 
 
+### Nested selectors
+**Never** nest selectors more than three levels deep!
+```scss
+.page-container {
+  .content {
+    .profile {
+      // STOP!
+    }
+  }
+}
+```
+If you end up nesting more, it probably means your CSS is:
+* Strongly coupled to the HTML
+* Overly specific 
+* Not reusable
+
+Again: **never** nest ID selectors!
+
 ### BEM Methodology
 
 > BEM stands for Block Element Modifier, a clever and clean way to name your CSS classes. 
@@ -121,24 +139,6 @@ Here is a very basic example of the BEM syntax:
   &--modifier { }
 }
 ```
-
-### Nested selectors
-**Never** nest selectors more than three levels deep!
-```scss
-.page-container {
-  .content {
-    .profile {
-      // STOP!
-    }
-  }
-}
-```
-If you end up nesting more, it probably means your CSS is:
-* Strongly coupled to the HTML
-* Overly specific 
-* Not reusable
-
-Again: **never** nest ID selectors!
 
 ### Javascript hooks
 
