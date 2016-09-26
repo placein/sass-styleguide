@@ -183,13 +183,13 @@ padding: 0 1em 2em;
 ```
 
 ### Mixins
-Mixins should be used to DRY up your code, add clarity, or abstract complexity. 
+Mixins should be used to [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) up your code, add clarity, or abstract complexity. 
 
 ### Extend directive
-`@extend` should be avoided. It has unintuitive and possibly dangerous behaviour, espeacially when used in nested selectors. 
+`@extend` should be avoided. It has unintuitive and possibly dangerous behaviour, especially when used in nested selectors. 
 
 ### Vendor Prefixes
-Never write vendor prefixes, they are added automatically at compilation.
+Never write vendor prefixes, they are added automatically at compilation using [autoprefixer](https://github.com/autoprefixer/autoprefixer.github.io).
 
 ## Comments and Documentation
 * Use line comments (// in Sass) to document within the code
@@ -203,7 +203,7 @@ Never write vendor prefixes, they are added automatically at compilation.
  }
 ````
 ### The importance of documenting
-You should write detailed comments for code that is not self-documenting: 
+You should write detailed comments for code that is not self-documenting, for example: 
 * Browser-specific hacks (try to avoid them anyway)
 * Seemingly arbitrary numeric values
 * Order of z-indexes
