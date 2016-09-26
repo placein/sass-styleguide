@@ -46,7 +46,7 @@ scss/
 ## Syntax
 
 ### General Recommendations
-* Indent usign soft tabs (2 spaces) — it guarantees that code renders the same in any environment.
+* Indent using tabs (4 spaces width) — it guarantees that code renders the same in any environment.
 * Put a space before the opening brace `{` in rule declarations.
 * In properties, put a space after, but not before, the `:` character.
 * Put closing braces `}` of rule declarations on a new line.
