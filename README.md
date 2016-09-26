@@ -122,7 +122,23 @@ Here is a very basic example of the BEM syntax:
 }
 ```
 
-![BEM in action](http://skynettask.bc/wikimso/images/b/ba/BEM-01.jpg)
+### Nested selectors
+**Never** nest selectors more than three levels deep!
+```scss
+.page-container {
+  .content {
+    .profile {
+      // STOP!
+    }
+  }
+}
+```
+If you end up nesting more, it probably means your CSS is:
+* Strongly coupled to the HTML
+* Overly specific 
+* Not reusable
+
+Again: **never** nest ID selectors!
 
 ### Javascript hooks
 
@@ -145,23 +161,6 @@ Within sets of properties, sort them alphabetically consistantly.
 4. Nested selectors
 5. Media queries
 
-### Nested selectors
-**Never** nest selectors more than three levels deep!
-```scss
-.page-container {
-  .content {
-    .profile {
-      // STOP!
-    }
-  }
-}
-```
-If you end up nesting more, it probably means your CSS is:
-* Strongly coupled to the HTML
-* Overly specific 
-* Not reusable
-
-Again: **never** nest ID selectors!
 
 ### Shorthand properties
 Use shorthand properties where possible. You might need to be specific when overriding existing properties though.
